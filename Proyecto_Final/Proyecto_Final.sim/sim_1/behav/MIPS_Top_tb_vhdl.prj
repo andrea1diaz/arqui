@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/ALU.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/ALUControl.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Add.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Control.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/Lab6_Vivado/Lab6_Vivado.srcs/sources_1/new/Data_Memory_VHDL.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Instruction_Mem.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/Proyecto/LWDECODER.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/MIPS_Top.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Mux2to1_32bit.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Mux2to1_5bit.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/PCounter.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Register_MEM.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/Proyecto/SWDECODER.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/ShiftLeft2.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Sign_extend.vhd"
+vhdl xil_defaultlib  "../../../Proyecto_Final.srcs/sim_1/imports/new/MIPS_Top_tb.vhd"
+
+# Do not sort compile order
+nosort

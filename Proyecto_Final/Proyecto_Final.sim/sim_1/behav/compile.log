@@ -1,0 +1,32 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/ALUControl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALUControl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Add.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Add
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/Lab6_Vivado/Lab6_Vivado.srcs/sources_1/new/Data_Memory_VHDL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Data_Memory_VHDL
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Instruction_Mem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Mem
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/Proyecto/LWDECODER.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LWDECODER
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/MIPS_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MIPS_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Mux2to1_32bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux2to1_32bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Mux2to1_5bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux2to1_5bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/PCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Register_MEM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_MEM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/Proyecto/SWDECODER.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SWDECODER
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/ShiftLeft2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ShiftLeft2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sources_1/imports/imports/6/vhds/Sign_extend.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Sign_extend
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alessio/Desktop/Proyecto_Final/Proyecto_Final.srcs/sim_1/imports/new/MIPS_Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MIPS_Top_tb
