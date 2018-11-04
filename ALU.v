@@ -21,3 +21,4 @@ module ALU (A, B, zero, ALUresult, ALUcontrol);
         ALUresult = (A < B) ? 1'b1 : 1'b0; //ver si esto esta bien, lo hice en la madrugada
     endcase
   end
+endmodule
