@@ -4,6 +4,7 @@ module ALU (A, B, zero, ALUresult, ALUcontrol);
   input [31:0]A;
   input [31:0]B;
   input [3:0] ALUcontrol;
+  reg [32:0] temp;
 
   assign zero = (ALUresult == 0);
 
@@ -14,7 +15,11 @@ module ALU (A, B, zero, ALUresult, ALUcontrol);
       4'b0001: //OR
         ALUresult = A | B;
       4'b0010: //add
-        ALUresult = A + B;
+        if( A+B > 0xFFFFFFFF)
+          temp = A+B;
+          ALUresult = temp[31:0];
+        else
+          ALUresult = A + B;
       4'b0110: //subtract
         ALUresult = A - B;
       4'b0111: // set on less than
