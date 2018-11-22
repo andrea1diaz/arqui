@@ -22,9 +22,10 @@ module ALU (clk, A, B, zero, ALUresult, ALUcontrol,
       4'b0001: //OR
         ALUresult = A | B;
       4'b0010: //add
-        if( A + B > 0xFFFFFFFF)
+        if( A + B > 0xFFFFFFFF) begin
           temp = A + B;
           ALUresult = temp[31:0];
+          end
         else
           ALUresult = A + B;
       4'b0110: //subtract
