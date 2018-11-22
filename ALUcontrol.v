@@ -4,9 +4,9 @@ module ALUcontrol (ALUoperation, funct, ALUcontrol);
   input [5:0]funct;
 
   always @ ( ALUoperation, funct ) begin
-    if (ALUop == 2'b00) ALUcontrol = 4'b0010; // load word - store word
-    if (ALUop == 2'b01) ALUcontrol = 4'b0110; // branch equal
-    if (ALUop == 2'b10) begin
+    if (ALUop == 2'b00) ALUcontrol = 4'b0010; // load word - store word - addi
+    if (ALUop == 2'bx1) ALUcontrol = 4'b0110; // branch equal - bnq - subi
+    if (ALUop == 2'b1x) begin
         case (funct[3:0])
           4'b0000:
             ALUcontrol = 4'b0010; // add
