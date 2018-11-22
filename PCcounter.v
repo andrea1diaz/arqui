@@ -4,11 +4,14 @@ output out[31:0];
 
 reg clk, rst;
 
+add AddPC (in, out, clk);
+
+inst InstructionMemory (out, clk);
 
 always@(posedge clk, rst, in);
 begin
 	if(rst)
 		out = 32'h00000000;
-	out = in + 4'h4;
+		out = in + 4'h4;
 end
 endmodule
