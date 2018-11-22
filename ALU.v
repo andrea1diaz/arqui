@@ -13,7 +13,7 @@ module ALU (clk, A, B, zero, ALUresult, ALUcontrol,
   assign zero = (ALUresult == 0);
 
 
-  mem DataMemory(clk, rst, A, B);
+  mem DataMemory(clk, rst, ALUresult);
 
   always @ (A or B or ALUcontrol) begin
     case (ALUcontrol)

@@ -1,4 +1,4 @@
-module CONTROL (Op, clk, in, reset, RegDst, Jump, Branch, MemRead, MemtoReg,
+module CONTROL (Opcode, clk, in, reset, RegDst, Jump, Branch, MemRead, MemtoReg,
                 ALUOp, MemWrite, ALUSrc, RegWrite);
   output wire RegDst;
   output wire Jump;
@@ -9,7 +9,7 @@ module CONTROL (Op, clk, in, reset, RegDst, Jump, Branch, MemRead, MemtoReg,
   output wire [0:0]MemWrite;
   output wire ALUSrc;
   output wire RegWrite;
-  input [31:0]Op;
+  input [31:0]Opcode;
   input clk;
   input in;
   input reset;
