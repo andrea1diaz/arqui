@@ -7,10 +7,4 @@ module AddPC(A, ADDout, clk);
   assign temp = A + 4;
   assign ADDout = temp[31:0];
 
-  always @ ( * ) begin
-    if (temp[31:26] == 6'b000010) begin
-
-    end
-  end
-
 endmodule
